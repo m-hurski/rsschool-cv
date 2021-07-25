@@ -1,0 +1,67 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    background-image: url(./assets/image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    flex: 1;
+    line-height: 2rem;
+}
+
+header{
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.contacts{
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.summary{
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.skills{
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.english{
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.list{
+    font-size: 1.5rem;
+    text-indent: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+}
+
+.link {
+    font-size: 2rem;
+    color: black;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+.year {
+    font-size: 2rem;
+}
