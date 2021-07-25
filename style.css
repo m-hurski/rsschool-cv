@@ -12,7 +12,7 @@ body{
 
 main{
     flex: 1;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 
 header{
@@ -21,22 +21,7 @@ header{
     font-style: italic;
 }
 
-.contacts{
-    font-style: italic;
-    font-size: 2rem;
-}
-
-.summary{
-    font-style: italic;
-    font-size: 2rem;
-}
-
-.skills{
-    font-style: italic;
-    font-size: 2rem;
-}
-
-.english{
+.sub-tittle{
     font-style: italic;
     font-size: 2rem;
 }
@@ -51,10 +36,10 @@ footer{
     justify-content: space-between;
     align-items: center;
     font-style: italic;
+    font-size: 2rem;
 }
 
 .link {
-    font-size: 2rem;
     color: black;
 }
 
@@ -62,6 +47,5 @@ footer{
     height: 50px;
     width: auto;
 }
-.year {
-    font-size: 2rem;
-}
+
+

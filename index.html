@@ -15,23 +15,59 @@
         <h1>Anastasiya Barabash</h1>
     </header>
     <main>
-        <h2 class="contacts">Contacts:</h2>
-        <ul class="list">
-            <li><strong>Phone: </strong> +375298331099</li>
-            <li><strong>E-mail: </strong> nastya.barabash.98@mail.ru</li>
-            <li><strong>Telegram: </strong> @Nbarabaash</li>
-        </ul>
-        <h3 class="summary">Summary</h3>
-        <p class="list">By the age of 22, I realized that what I was doing in life did not please me and realized that I would like
-            to
-            connect my life with what was always close to me. Therefore, I spend all my free time on improving my
-            knowledge
-            in the field of programming and the English language, because my goal is to become a Front-end developer.
-        </p>
-        <h3 class="skills">Skills</h3>
-        <p class="list">In the learning process</p>
-        <h3 class="english">English</h3>
-        <p class="list">Elementary</p>
+        <section>
+            <article>
+                <h2 class="sub-tittle">Contacts:</h2>
+                <ul class="list">
+                    <li><strong>Phone: </strong> +375298331099</li>
+                    <li><strong>E-mail: </strong> nastya.barabash.98@mail.ru</li>
+                    <li><strong>Telegram: </strong> @Nbarabaash</li>
+                </ul>
+            </article>
+            <article>
+                <h3 class="sub-tittle">Summary:</h3>
+                <p class="list">By the age of 22, I realized that what I was doing in life did not please me and
+                    realized that I
+                    would like
+                    to
+                    connect my life with what was always close to me. Therefore, I spend all my free time on improving
+                    my
+                    knowledge
+                    in the field of programming and the English language, because my goal is to become a Front-end
+                    developer.
+                </p>
+            </article>
+            <article>
+                <h3 class="sub-tittle">Skills:</h3>
+                <p class="list">In the learning process</p>
+            </article>
+            <article>
+                <h3 class="sub-tittle">English level:</h3>
+                <p class="list">Elementary</p>
+            </article>
+            <article>
+                <h3 class="sub-tittle">Sample code:</h3>
+                <pre>
+                    const bubbleSort = (inputArr) => {
+                        let len = inputArr.length;
+                        for (let i = 0; i < len; i++) {
+                            for (let j = 0; j < len; j++) {
+                                if (inputArr[j] > inputArr[j + 1]) {
+                                    let tmp = inputArr[j];
+                                    inputArr[j] = inputArr[j + 1];
+                                    inputArr[j + 1] = tmp;
+                                }
+                            }
+                        }
+                        return inputArr;
+                    };
+                </pre>
+            </article>
+            <article>
+                <h3 class="sub-tittle">Education:</h3>
+                <p class="list">General basic</p>
+            </article>
+        </section>
     </main>
     <footer>
         <a class="link" href="https://github.com/Anastasiya-Barabash" target="_blank">Anastasiya-Barabash</a>
